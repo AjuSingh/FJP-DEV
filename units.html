@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+        html {
+            background: lightgoldenrodyellow
+        }
+
+        .box {
+            color: white;
+            margin: 20px;
+            background: black;
+        }
+
+        .par {
+            font-size: 30px;
+        }
+
+        .px {
+            width: 200px;
+        }
+
+        .vw {
+            width: 10vw;
+        }
+
+        .em {
+            width: 10em;
+        }
+
+        .rem {
+            width: 10rem;
+        }
+
+        .ems li{
+            font-size: 1.5em;
+        }
+
+        .rems li{
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="par">
+            <div class="box em">I am 10em wide</div>
+        </div>
+        <div class="box px">I am 200px wide</div>
+        <div class="box rem">I am 10rem wide</div>
+        <div class="box vw">I am 10vw wide</div>
+    </div>
+
+    <div>
+        <ul class="ems">
+            <!-- 1.5*16px = 24px -->
+            <li>one</li>
+            <li>two</li>
+            <li>three
+                <ul>
+            <!-- 1.5*16px = 24px*1.5 = 36px -->
+                    <li>three A</li>
+                    <li>three B
+                        <ul>
+            <!-- 1.5*16px = 24px*1.5 = 36px*1.5 = 54px -->
+                            <li>three 2</li>
+                            <li>three</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+    <div>
+        <ul class="rems">
+            <!-- in rems it just multiplty the 16*1.5 = 24px -->
+            <!-- 16 because the root element is html and its font size is 16px -->
+            <li>one</li>
+            <li>two</li>
+            <li>three
+                <ul>
+                    <li>three A</li>
+                    <li>three B
+                        <ul>
+                            <li>three 2</li>
+                            <li>three</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
