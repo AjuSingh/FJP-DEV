@@ -5,3 +5,7 @@
 
 # to untrack a file in the current directory
 # git rm --cached filename
+
+# Another use is to exclude all files in a specific path, such as the application build directory.
+# This will ignore the Build directory and everything within it.
+# /Build/*
