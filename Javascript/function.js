@@ -29,9 +29,27 @@ function cal(str,a,b){
 // console.log(result());
 
 //function express
-let sayHi = function(){
-    console.log("Hi how are you");
-}
+// let sayHi = function(){
+//     console.log("Hi how are you");
+// }
 
-console.log(sayHi);
-sayHi();
+// console.log(sayHi);
+// sayHi();
+
+
+//IIFE -> Immediately invoked function 
+// function add(a,b){
+//     return a+b;
+// }
+//we need to invoke this by calling it
+
+// console.log(add(1,2));
+
+let additionIIFY = (function add(a,b){
+    console.log(a+b);
+})(2,3);
+//addition iffy is executed by itself we dont need to run it
+//if we simply made fuction and not assigned to any variable then it will be not executed
+
+
+
