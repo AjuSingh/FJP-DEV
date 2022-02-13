@@ -1,4 +1,5 @@
 //Arrays is defined as collection of elements
+//Array is contiguous allocation of memory
 //in javascript we can store any type of data in same array
 let names = ["aju","kaman",1,2,true,null];
 
@@ -24,6 +25,7 @@ let nums = [1,2,3,4,5,6,7,8,9,10];
 // console.table(nums);
 //it will show the value in table with indexes
 
-let TwoDArray = [[1,2,3],[4,5,6],[7,8,9]];
-console.table(TwoDArray);
+let TwoDArray = [[1,2,3,8],[4,5,6],[7,8,9]];
+// console.log(TwoDArray[1].length); ->3
+// console.table(TwoDArray);
 // console.log(names);
