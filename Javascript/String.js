@@ -21,5 +21,11 @@ let str ="My name is Aju Singh"
 
 //trim 
 //it will remove the whitespaces from starting and ending from string
-let string ="                             Hi i will be back                              ";
-console.log(string.trim());
+// let string ="                             Hi i will be back                              ";
+// console.log(string.trim());
+
+
+//It will not change the string 
+let ss = "Hello"
+ss[0] = 'Y';
+console.log(ss);
