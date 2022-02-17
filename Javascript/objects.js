@@ -17,5 +17,13 @@ let person = {
         console.log(`Hello my name is ${person.name}`);
     }
 }
+
+//every thing in javascript is object
+//In keyword is used to get key from object
+//we cant use dot notation in this because it show it undefined 
+for(let key in person) {
+    console.log(`${key}: ${person[key]}`);
+}
+
 // person.hello();
 // console.log(person);
