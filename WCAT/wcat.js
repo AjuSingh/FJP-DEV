@@ -24,7 +24,7 @@ let input = process.argv.slice(2);
 const readFiles=(input)=>{
   for(let i = 0; i < input.length;i++){
     if(!fs.existsSync(input[i])){
-      return "file doesn't exist at path/" + input[i];
+      return "file doesn't exist at path /" + input[i];
        //we are using the return because of the to not file execution of other
     } 
   }
@@ -135,7 +135,15 @@ if(com1 == "-s" && com2 == "-n"){
   }else{
    console.log(res);
   }
+}else if(input[0][0]!='-'){
+let res  = readFiles(input);
+if(res==""){
+  console.log("Invalid file_path");
 }else{
+  console.log(res);
+}
+}
+else{
   console.log("Command doesn't exist");
 }
 
