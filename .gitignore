@@ -1,5 +1,5 @@
 #it will ignore all files with extension .txt
-*.txt
+# *.txt
 # if we want not to ignore file.txt but allow
 # !file.txt
 

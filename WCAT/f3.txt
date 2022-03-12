@@ -1,0 +1,12 @@
+hello i am the third file of the same directory
+
+
+
+
+
+
+
+
+
+
+I am f3.txt 

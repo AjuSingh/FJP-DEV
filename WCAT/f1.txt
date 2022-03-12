@@ -1,0 +1,10 @@
+hello i am the first file of the same directory
+
+
+
+I am f1.txt 
+
+i want to see the
+
+
+stay
