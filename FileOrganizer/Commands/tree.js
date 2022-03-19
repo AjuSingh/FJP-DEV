@@ -1,11 +1,12 @@
 const fs = require("fs"); //fs module
 const path = require("path"); //path module
 
-function tree(curPath) {
+function tree(indent,curPath) {
   let isDirectory = fs.lstatSync(curPath).isDirectory();
   if (isDirectory) {
     //printing the directory 
-    console.log(curPath);
+    let folder = path.basename(curPath)
+    console.log( indent + "└──"  + folder);
     //getting the all files in the current directory and pass the path if it is directory
     let allFiles = fs.readdirSync(curPath);
     for (let i = 0; i < allFiles.length; i++) {
@@ -14,11 +15,11 @@ function tree(curPath) {
       let fullPath = path.join(curPath, allFiles[i]);
       if (fs.lstatSync(fullPath).isDirectory()) {
         //passing the next directory
-        tree(fullPath);
+        tree(indent + "\t",fullPath);
       } else {
         //we will get the last name of current directory for printing
         let baseName = path.basename(fullPath);
-        console.log(baseName);
+        console.log(indent + "├── " + baseName);
       }
     }
   } else {
@@ -26,6 +27,8 @@ function tree(curPath) {
     let baseName = path.basename(fullPath);
     console.log(baseName);
   }
+
+ 
 }
 
 module.exports = {tree};

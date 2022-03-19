@@ -30,14 +30,14 @@ function organize(srcPath) {
 
   //Reads the contents of the directory.-> basically reads the names of files present in directory
     let allFiles = fs.readdirSync(srcPath);
-    // console.log(allFiles);
+    console.log(allFiles);
 
   //4.trvaerse over all the files and classify them on the basis of their extension (.pdf , .mp3)
     for (let i = 0; i < allFiles.length; i++){
       // let ext = allFiles[i].;
       //extname returns the extension of the file
       let fullPathOfFile = path.join(srcPath, allFiles[i]);
-      // console.log(fullPathOfFile);
+      console.log(fullPathOfFile);
       //1. check if it is a file or folder
       //lstatsync gives the information regarding the link provided ,
       let isThisAFile = fs.lstatSync(fullPathOfFile).isFile(); //true-> file hai to  or false-> agar folder h 

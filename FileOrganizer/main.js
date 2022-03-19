@@ -15,7 +15,7 @@ switch (command) {
     break;
   case "tree":
     //call the tree function
-    Tree.tree(path);
+    Tree.tree("",path);
     break;
   default:
     console.log("Command is not recognized");
