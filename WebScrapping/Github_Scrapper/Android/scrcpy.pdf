@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1512
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. Multiple video streams for one window) Tj
+T* (2. Environment error after updating phone to Android 12) Tj
+T* (3. SCRCPY very slow on WiFi, fast on USB  Started doing this when new WiFi AP was installed) Tj
+T* (4. Crash after rotation during playback video) Tj
+T* (5. Enter keypress acts as a newline instead of "Send") Tj
+T* (6. Looking forward to adding a side toolbar) Tj
+T* (7. Keep the program running while monitor is turned off) Tj
+T* (8. App display corrupted) Tj
+T* (9. How does scrcpy decode/display YUV420p frame?) Tj
+T* (10. Option to power-off at start) Tj
+T* (11. Could not send video packet,  config packet to sink 0, process packet) Tj
+T* (12. While scrcpy is running disable charging option) Tj
+T* (13. When multiple devices are present, let the user pick one.) Tj
+T* (14. Isolated build environment) Tj
+T* (15. adb server version \(41\) doesn't match this client) Tj
+T* (16. App don't run) Tj
+T* (17. SCRCPY Performance usb) Tj
+T* (18.  The screen does not turn on after the Turn screen off scrcpy session is stopped.) Tj
+T* (19. Scrcpy KDE Plasmoid) Tj
+T* (20. scrcpy 1.21 & 1.23 // debian testing Bookworm // Exception on thread) Tj
+T* (21. --help and -h are slightly outdated. ) Tj
+T* (22. Hi,i'm new here and need some help) Tj
+T* (23. encoder problem or hardware problem) Tj
+T* (24. WHAT IS THIS!) Tj
+T* (25. Suspending scrcpy while keeping device awake) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234026+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000001716 00000 n 
+0000003533 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000001773 00000 n 
+0000001898 00000 n 
+0000002028 00000 n 
+0000002161 00000 n 
+0000002298 00000 n 
+0000002421 00000 n 
+0000002550 00000 n 
+0000002682 00000 n 
+0000002818 00000 n 
+0000002946 00000 n 
+0000003073 00000 n 
+0000003202 00000 n 
+0000003335 00000 n 
+0000003437 00000 n 
+0000003781 00000 n 
+0000003867 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <5BB047D0052CB94118663405202FF4C1> <5BB047D0052CB94118663405202FF4C1> ]
+>>
+startxref
+3971
+%%EOF

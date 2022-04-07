@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1924
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. error TS2307: Cannot find module 'babylonjs-gltf2interface/.js' or its corresponding type declarations.) Tj
+T* (2. Evaluate removing IE support) Tj
+T* (3. [NME] ctrl + drag around nodes in a frame will only select the frame) Tj
+T* (4. Texture Inspector - Clicking on the "Edit" button crashes the Inspector) Tj
+T* (5. [Tools] Make sure our tools have basic accessibility tags) Tj
+T* (6. WebXR: Display teleport ray in red color when intersecting with pickBlockerMeshes) Tj
+T* (7. KTX Textures get lost on GLB Export) Tj
+T* (8. [Build] Make sure to log shader compilation error better in validation tests) Tj
+T* (9. Allow arc rotate auto rotation to rotate to a certain beta value) Tj
+T* (10. Unicode/emoji characters in Playground are lost upon Save) Tj
+T* (11. Flexibility to load Preload Assets.) Tj
+T* (12. Allow conditional texture fetch in NME) Tj
+T* (13. Use Custom NME Material for shadow map shaders) Tj
+T* (14. [NME] Shortcuts for search and placement) Tj
+T* (15. TouchButton3D's getPressDepth\(position\) call has depth discrepancy) Tj
+T* (16. Adding a parameter for setParent\(\) method that takes into account the pivot change) Tj
+T* (17. XR Modal Window) Tj
+T* (18. Upgrade to v0.2.0 of Basis-Universal-Transcoders to decode KTX) Tj
+T* (19. Export PNG from serializers without loosing color information due to premultiplied alpha) Tj
+T* (20. [XR] Materials should use stereo eye position for reflections in multiview) Tj
+T* (21. Implement IAnimatable on GUI controls ) Tj
+T* (22. AssetContainer addAllToScene and removeAllFromScene should also handle particle systems) Tj
+T* (23. SPS should set the active mesh's bounding info to be the size of the SPS itself) Tj
+T* (24. [XR] Implement an AR Depth Feature) Tj
+T* (25. [XR] Near Menu cannot be dragged when in immersive mode) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234025+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000002128 00000 n 
+0000003945 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000002185 00000 n 
+0000002310 00000 n 
+0000002440 00000 n 
+0000002573 00000 n 
+0000002710 00000 n 
+0000002833 00000 n 
+0000002962 00000 n 
+0000003094 00000 n 
+0000003230 00000 n 
+0000003358 00000 n 
+0000003485 00000 n 
+0000003614 00000 n 
+0000003747 00000 n 
+0000003849 00000 n 
+0000004193 00000 n 
+0000004279 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <DF5EAF7B1F7F721639E54E5606484E4F> <DF5EAF7B1F7F721639E54E5606484E4F> ]
+>>
+startxref
+4383
+%%EOF

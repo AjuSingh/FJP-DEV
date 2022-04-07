@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1718
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. Cannot declare class Amp\\Parallel\\Sync\\SerializationException, because the name is already in use) Tj
+T* (2. Continue tasks after exception.) Tj
+T* (3. [Question] Check support) Tj
+T* (4. Is possible to share data from main process to workers?) Tj
+T* (5. Error in sub-pools/processes inside a pool/process using parallel) Tj
+T* (6. The worker crashed / Loop exceptionally stopped without resolving the promise) Tj
+T* (7. Count of working workers less then maximum pool size) Tj
+T* (8. Worker in pool exited unexpectedly with code -1) Tj
+T* (9. Connection Timeout) Tj
+T* (10. not get response from call a user function ) Tj
+T* (11. PHP Parallel Extension: Worker in pool exited unexpectedly) Tj
+T* (12. not able fetching multiple data from the different function using amphp/parallel ) Tj
+T* (13. ContextException: Starting the process failed) Tj
+T* (14. Warnings and errors with parallel driver on Windows) Tj
+T* (15. [BUG/QUESTION] How does one use Laravel's facades inside a Task?) Tj
+T* (16. test coverage problem) Tj
+T* (17. Static analysis to check ability to serialize) Tj
+T* (18. How to launch multiple blocking processes) Tj
+T* (19. Parallel processing in loop for more than 200 iteration causing zombie processes) Tj
+T* (20. DX: "TaskFailure:  use Amp\\Parallel\\Worker\\TaskException::getWorkerTrace\(\) for the stack trace in the worker") Tj
+T* (21. Add Xdebug forwarding) Tj
+T* (22. Debugging) Tj
+T* (23. Support customizing the sub-process options) Tj
+T* (24. Support delayed port access \(e.g. due to firewalls\)) Tj
+T* (25. Add ability to restart pool and workers) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234026+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000001922 00000 n 
+0000003739 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000001979 00000 n 
+0000002104 00000 n 
+0000002234 00000 n 
+0000002367 00000 n 
+0000002504 00000 n 
+0000002627 00000 n 
+0000002756 00000 n 
+0000002888 00000 n 
+0000003024 00000 n 
+0000003152 00000 n 
+0000003279 00000 n 
+0000003408 00000 n 
+0000003541 00000 n 
+0000003643 00000 n 
+0000003987 00000 n 
+0000004073 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <48D40062F9540CCF1447AB07AD6AE7D2> <48D40062F9540CCF1447AB07AD6AE7D2> ]
+>>
+startxref
+4177
+%%EOF

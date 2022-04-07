@@ -10,4 +10,5 @@
 # This will ignore the Build directory and everything within it.
 # /Build/*
 test.js
+secrets.js
 node_modules/

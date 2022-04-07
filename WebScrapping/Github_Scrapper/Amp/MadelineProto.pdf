@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1603
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. Could not connect to MadelineProto) Tj
+T* (2. Could not connect to DC 1 in MadelineProto/DataCenter.php:300) Tj
+T* (3. Does java have a library like this) Tj
+T* (4. No records returned for 'id.pwrtelegram.xyz' \(DNAME\)) Tj
+T* (5. Error with madeline installed using composer) Tj
+T* (6. Fatal error: Cannot redeclare Amp\\File\\open\(\) ) Tj
+T* (7. chat history of a group chat) Tj
+T* (8. Auth Failed, please check the logfile for more information, make sure to install https://prime.madelineproto.xyz!) Tj
+T* (9. Use .session files like Telethon) Tj
+T* (10. PTS Duplicate) Tj
+T* (11. Could not connect to MadelineProto) Tj
+T* (12. Class "Amp\\Postgres\\ByteA" not found) Tj
+T* (13. Unable to get my messages from a Telegram group with MadelineProto) Tj
+T* (14. RANDOM_ID_EMPTY error while sendMultiMedia) Tj
+T* (15. MadelineProtoAPI Issue Login Missing error) Tj
+T* (16. unserialize\(\)) Tj
+T* (17. Enabling garbage collector robot will shut down after a hours!) Tj
+T* (18. When calling $MadelineProto->messages->sendMessage the process  be stuck there) Tj
+T* (19. Given message id \(....\) is bigger than or equal to the current limit \(....\). Please sync your date using NTP.) Tj
+T* (20. parse_mode not working) Tj
+T* (21. Could not connect to telegram.org via proxy) Tj
+T* (22. Can't send new message \(new error\)) Tj
+T* (23. stops responding) Tj
+T* (24. Unable to play audio file in a call) Tj
+T* (25. In messages->getDialogs the offset_id param not effective) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234026+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000001807 00000 n 
+0000003624 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000001864 00000 n 
+0000001989 00000 n 
+0000002119 00000 n 
+0000002252 00000 n 
+0000002389 00000 n 
+0000002512 00000 n 
+0000002641 00000 n 
+0000002773 00000 n 
+0000002909 00000 n 
+0000003037 00000 n 
+0000003164 00000 n 
+0000003293 00000 n 
+0000003426 00000 n 
+0000003528 00000 n 
+0000003872 00000 n 
+0000003958 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <854AEA1E5003CEFC24921DBFFCEBD9AC> <854AEA1E5003CEFC24921DBFFCEBD9AC> ]
+>>
+startxref
+4062
+%%EOF

@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1864
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. Raycast + Instancing in A-Frame?) Tj
+T* (2. hand-tracking-controls 1.5 y offset required?) Tj
+T* (3. Asset loading hangs forever when errors hit loading an asset.) Tj
+T* (4. Refused to evaluate a string as JavaScript because 'unsafe-eval' is not an allowed source of script) Tj
+T* (5. Broken Hyperlink on Aframe website - videosphere section) Tj
+T* (6. The version 1.3.0 a-frame does not work in WebView on Android when switching to VR mode) Tj
+T* (7. VR mode not working on iOS devices) Tj
+T* (8. 1.3.0 Hellow WebVR screenshot looks washed out) Tj
+T* (9. a-text custom font broken) Tj
+T* (10. Dropped frames after mousedown on Chrome/Bing on scenes with large number of nested entities) Tj
+T* (11. White bar at the bottom when in landscape orientation - iOS - iPhone) Tj
+T* (12. npm run dist error) Tj
+T* (13. Canvas does not update when in VR mode in Oculus Browser...) Tj
+T* (14. spherical-env-map not working from A-Frame 1.1.0+) Tj
+T* (15. Silent failure where components not initialized if they are modified immediately after object creation.) Tj
+T* (16. Not up-to-date documentation) Tj
+T* (17. raycasting with mouse not on the object position when "embedded") Tj
+T* (18. Plane or Sky not visible on iOS Chrome and Firefox) Tj
+T* (19. Raycasting to objects that are not the closest) Tj
+T* (20. Look controls only working horizontally on touchscreen) Tj
+T* (21. 360 video - Android Firefox) Tj
+T* (22. random WebGL: CONTEXT_LOST_WEBGL: loseContext: context lost on a relatively simple page.) Tj
+T* (23. Rendering to a 2d canvas while XR mode enabled) Tj
+T* (24. Add support for targetFrameRate and supportedFrameRates) Tj
+T* (25. VR appears broken for iOS devices. Tested on iPad/iPhone. Confirmed on example at aframe.io) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234025+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000002068 00000 n 
+0000003885 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000002125 00000 n 
+0000002250 00000 n 
+0000002380 00000 n 
+0000002513 00000 n 
+0000002650 00000 n 
+0000002773 00000 n 
+0000002902 00000 n 
+0000003034 00000 n 
+0000003170 00000 n 
+0000003298 00000 n 
+0000003425 00000 n 
+0000003554 00000 n 
+0000003687 00000 n 
+0000003789 00000 n 
+0000004133 00000 n 
+0000004219 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <B1CAA9FED490C9613A7BD789A26D5BF6> <B1CAA9FED490C9613A7BD789A26D5BF6> ]
+>>
+startxref
+4323
+%%EOF

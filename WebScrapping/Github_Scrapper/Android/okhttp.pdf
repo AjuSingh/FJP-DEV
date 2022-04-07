@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1699
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. Improve Flaky handling) Tj
+T* (2. Provide a clean way for Bridging Interceptors to get a cancel signal) Tj
+T* (3. Support a standard version of enableTls) Tj
+T* (4. SVCB config for DoH) Tj
+T* (5. MockWebServer extension is starting new server when I call @BeforeEach and @AfterEach) Tj
+T* (6. Dependency Dashboard) Tj
+T* (7. Code example box in the docs) Tj
+T* (8. Sample of a CapturingTrustManager to simplify handshake failures) Tj
+T* (9. Duplex documentation is terribly wrong) Tj
+T* (10. Proactively warn of bad connection state) Tj
+T* (11. Http2 Connection becomes stalled after interrupt during call.execute) Tj
+T* (12. Multiple RST_STREAM sent while receiving DATA frames in flight after cancel.) Tj
+T* (13. Upgrade from IDN2003 to UTS #46 Non-transitional) Tj
+T* (14. Flaky test EventSourceHttpTest > cancelInEventShortCircuits) Tj
+T* (15. MockWebServer shuts down after timeout) Tj
+T* (16. MockWebServer clearing all requests at once) Tj
+T* (17. Multiplatform OkHttp) Tj
+T* (18. StringIndexOutOfBoundsException on JavaNetCookieJar.java:103 - when the value contains only one double quote) Tj
+T* (19. Future support for Cache-Status header) Tj
+T* (20. Couldn't do get request after turning off internet) Tj
+T* (21. Connection pool's TaskRunner wakes up frequently and drain CPU) Tj
+T* (22. Update snapshot and release publishing after gradle 7 upgrade) Tj
+T* (23. Adopt standard graal test runtime) Tj
+T* (24. HttpUrl#addPathSegment does not encode square brackets '[', ']) Tj
+T* (25. Documentation of MockWebServer-Junit5 mentions a non-existent version) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234026+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000001903 00000 n 
+0000003720 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000001960 00000 n 
+0000002085 00000 n 
+0000002215 00000 n 
+0000002348 00000 n 
+0000002485 00000 n 
+0000002608 00000 n 
+0000002737 00000 n 
+0000002869 00000 n 
+0000003005 00000 n 
+0000003133 00000 n 
+0000003260 00000 n 
+0000003389 00000 n 
+0000003522 00000 n 
+0000003624 00000 n 
+0000003968 00000 n 
+0000004054 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <BF6CAA2BF44C5C505C1CFBF6EEC5FEC9> <BF6CAA2BF44C5C505C1CFBF6EEC5FEC9> ]
+>>
+startxref
+4158
+%%EOF

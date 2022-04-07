@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 2080
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. [Bug] Flipping rectangles in"fully constrainted"parametric sketch) Tj
+T* (2. TechDraw: PropertyFileIncluded points to wrong location in Snap package) Tj
+T* (3. [Bug] Keyboard shortcuts not working in undocked doc window) Tj
+T* (4. Changing Locale should let user know in the UI that a restart is recommended) Tj
+T* (5. [Feature Request] Shortcuts for Draft snaps) Tj
+T* (6. [Bug]Graphics Issues in Some Linux Configurations) Tj
+T* (7. [Feature Request] Backups for each project stored in their own directory to avoid directory bloat) Tj
+T* (8. [Bug] LeadInOut dressup breaks simulator) Tj
+T* (9. [Feature Request] Enable KeyboardInterrupt \(ie Ctrl-C\) to work in the Python console to break out of infinite loops) Tj
+T* (10. [Bug] NaviCube does not respond to MSAA settings in preferences.) Tj
+T* (11. [Bug] cannot change type of profile after addition of profile using Arch Profile tool) Tj
+T* (12. [Bug] [crash] PartDesign SubShapeBinder: crash and other issues when manually editing Support) Tj
+T* (13. [Task] conda freecad-feedstock is broken and consequently we have cross-platform build issues  ) Tj
+T* (14. [Feature Request]  Expanded Kerf width for Profile operation) Tj
+T* (15. [Bug] [regression] App::Part Shapes are infinite) Tj
+T* (16. [Bug] [Draft] SVG import does not work with plain SVG) Tj
+T* (17. [Bug] [regression] polar pattern fail) Tj
+T* (18. [Bug] [crash] Crash when creating a fillet) Tj
+T* (19. [Bug] Draft Snap Near is inaccurate when snapping to curves) Tj
+T* (20. [Feature Request] Create a 3D adaptive clearing operation) Tj
+T* (21. [Bug] Fail to load a project with arbitrarily named constraints in a sketch) Tj
+T* (22. [Feature Request] Always place the Transform tool's manipulator inside a selected body) Tj
+T* (23. [Feature Request] [TechDraw] Ordinate dimensions) Tj
+T* (24. [Bug] [Regression] Pocket becomes a pad when next object ofter a polar pattern) Tj
+T* (25. [Bug] [TD]Bitmap hatching is not supported) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234026+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000002284 00000 n 
+0000004101 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000002341 00000 n 
+0000002466 00000 n 
+0000002596 00000 n 
+0000002729 00000 n 
+0000002866 00000 n 
+0000002989 00000 n 
+0000003118 00000 n 
+0000003250 00000 n 
+0000003386 00000 n 
+0000003514 00000 n 
+0000003641 00000 n 
+0000003770 00000 n 
+0000003903 00000 n 
+0000004005 00000 n 
+0000004349 00000 n 
+0000004435 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <1BCD68504E73267FF15188C1DA9A4230> <1BCD68504E73267FF15188C1DA9A4230> ]
+>>
+startxref
+4539
+%%EOF

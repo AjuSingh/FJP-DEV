@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1736
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. Reconsider removal of inline sRGB decode) Tj
+T* (2. WEBGPU Custom Shader Example) Tj
+T* (3. Add missing blend function constants) Tj
+T* (4. Mirror Example broken on iOS 15.4) Tj
+T* (5. Points billboard not working as expected in VR on r137) Tj
+T* (6. errors in visualisation in webgl_loader_gltf_transmission with safari 15.4 on M1/iOS devices) Tj
+T* (7. Loft NURBS) Tj
+T* (8. Postprocessing - Outline Pass rendering issue) Tj
+T* (9. Add vertex color alpha channel support to LineMaterial) Tj
+T* (10. Convert remaining nodes and examples that are using the Nodes classes directly to using the ShaderNode functions) Tj
+T* (11. Consider repair or delete the sharedPhysics Attribute in MMDAnimationHelper  ) Tj
+T* (12. Unify constructor\(\) and set\(\) in Matrix and Color classes) Tj
+T* (13. Avoid bare imports other than 'three') Tj
+T* (14. Roadmap for a color-managed workflow in three.js) Tj
+T* (15. Nodes: Add node for fetching pixel's position) Tj
+T* (16. WebGPUNodeBuilder: Add possibility to use Nodes system to create compute shaders) Tj
+T* (17. Nodes: Add StorageNode) Tj
+T* (18. camera.getWorldPosition/... returning the wrong result in XR mode) Tj
+T* (19. XR: session events are incorrect or missing when using immersive-ar and multitouch) Tj
+T* (20. Nodes: Add more exports to ShaderNode) Tj
+T* (21. Nodes: Sometimes when using CondNode extra parentheses are generated) Tj
+T* (22. Nodes: Add possibility to use for/while loops) Tj
+T* (23. Ground projected HDR environment map) Tj
+T* (24. Docs: Some APIs are Undocumented) Tj
+T* (25. Add support for TEXCOORD_n and COLOR_n for morph targets) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234025+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000001940 00000 n 
+0000003757 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000001997 00000 n 
+0000002122 00000 n 
+0000002252 00000 n 
+0000002385 00000 n 
+0000002522 00000 n 
+0000002645 00000 n 
+0000002774 00000 n 
+0000002906 00000 n 
+0000003042 00000 n 
+0000003170 00000 n 
+0000003297 00000 n 
+0000003426 00000 n 
+0000003559 00000 n 
+0000003661 00000 n 
+0000004005 00000 n 
+0000004091 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <EE214C7272CF7B3F17C75E7AAE87D82C> <EE214C7272CF7B3F17C75E7AAE87D82C> ]
+>>
+startxref
+4195
+%%EOF

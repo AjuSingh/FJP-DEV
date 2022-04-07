@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 2122
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. [Fonts] Icon request: audio_file) Tj
+T* (2. [Windows] Error Visual C++ Runtime) Tj
+T* (3. The following assertion was thrown during paint\(\): 'package:flutter/src/material/material.dart': Failed assertion: line 677 pos 12: 'referenceBox.attached': is not true.) Tj
+T* (4. Timeline.instantSync is not shown in DevTools) Tj
+T* (5. Soft keyboard pops up at any external hardware keyboard key press) Tj
+T* (6. Problem with the release version) Tj
+T* (7. [tool_crash] ProcessException: No such file or directory Command: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome, OS error code: 2) Tj
+T* (8. Firebase .onChildAdded.listen\(\) breaks on web) Tj
+T* (9. horizontal white line in the bottom of my custom app bar on Android ) Tj
+T* (10. 'package:flutter/src/widgets/navigator.dart': Failed assertion: line 5127 pos 12: '!_debugLocked': is not true.) Tj
+T* (11. prefer_final_parameters lint error in generated_plugin_registrant.dart) Tj
+T* (12. [Web][iFrame][Safari] Cannot click on flutter web app inside iframe using Safari mobile) Tj
+T* (13. Framework tree is closed on mirroring failure, jobs not starting) Tj
+T* (14. Cannot touch widget behind a \(transparent & unelevated\) AppBar) Tj
+T* (15. Modal bottom sheets created using showModalBottomSheet get cut off by the system navigation) Tj
+T* (16. [Fonts] Icon request: warehouse) Tj
+T* (17. Flutter not building apk in release mode) Tj
+T* (18. Visual artifact when using InteractiveViewer with ListView) Tj
+T* (19. Apple silicon machine on latest master shows x64 cached Dart version) Tj
+T* (20. Dart -> Engine roller blocked on null assert in Android test.) Tj
+T* (21. The Engine tree is blue?!) Tj
+T* (22. Problem selecting and playing cropped \(I don't mean trimmed, as in shortening the video\) videos on my iOS device or simulator) Tj
+T* (23. NSAssert is enable in relase mode after custom flutter engine) Tj
+T* (24. macos demo fails to start) Tj
+T* (25. App crashed when clipboard set data with null  on iOS device) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234025+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000002326 00000 n 
+0000004143 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000002383 00000 n 
+0000002508 00000 n 
+0000002638 00000 n 
+0000002771 00000 n 
+0000002908 00000 n 
+0000003031 00000 n 
+0000003160 00000 n 
+0000003292 00000 n 
+0000003428 00000 n 
+0000003556 00000 n 
+0000003683 00000 n 
+0000003812 00000 n 
+0000003945 00000 n 
+0000004047 00000 n 
+0000004391 00000 n 
+0000004477 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <AD5C2BBCBA095392340D719028557B35> <AD5C2BBCBA095392340D719028557B35> ]
+>>
+startxref
+4581
+%%EOF

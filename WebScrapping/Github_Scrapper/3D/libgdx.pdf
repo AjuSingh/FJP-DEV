@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1831
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. Cursor pixmap behaviour unstable after 27 march on 1.10.1-SNAPSHOT) Tj
+T* (2. use activityResultRegistry in libgdx for android) Tj
+T* (3. "No cap character found in font" - Why would that be?) Tj
+T* (4. 2D particle effect freezes when loading a file) Tj
+T* (5. LWJGL3 windows no longer update while being resized) Tj
+T* (6. ScrollPane not visible in SelectBox) Tj
+T* (7. ANGLE doesn't work on 32-bit Windows) Tj
+T* (8. VertexBufferObjectWithVAO.unbindAttributes bug in HTML/GWT) Tj
+T* (9. Audio sounds muffled when using LWJGL3 backend) Tj
+T* (10. Box2D not working on 1.10.1-SNAPSHOT with Linux) Tj
+T* (11. MathUtils.atan2 screws up Box2D Body.setTransform\(x,y,angleRad\)) Tj
+T* (12. Pixmap doesn't specify it requires a Direct Byte Buffer) Tj
+T* (13. iOS touch inputs not working after calling SKStoreReviewController.requestReview\(\);) Tj
+T* (14. FileHandle: Shared Storage User Permissions - Android 11 \(API 30\)) Tj
+T* (15. FreeTypeFontGenerator generates empty glyphs) Tj
+T* (16. Could not resolve com.badlogicgames.gdx:gdx-backend-lwjgl3:1.10.1-SNAPSHOT) Tj
+T* (17. LiveWallpaper crashing on Samsung Galaxy S21 series devices with Android 12) Tj
+T* (18. What is the right why to limit max fps on Android?) Tj
+T* (19. Dialog.key\(\)'s keyDown\(\) returns false \(should return true\)) Tj
+T* (20. Add an option to not make the window freeze when moving/resizing the window) Tj
+T* (21. LWJGL3 fails to create GLFW window when out of disk space?) Tj
+T* (22. What does CC-LICENSE refer to?) Tj
+T* (23. 3D Particle Effect Editor doesn`t load Texture Atlas) Tj
+T* (24. Viewport shifted on secondary Monitor ) Tj
+T* (25. box2d's ChainShape doesn't implement b2ChainShape::Clear\(\) jni method) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234026+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000002035 00000 n 
+0000003852 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000002092 00000 n 
+0000002217 00000 n 
+0000002347 00000 n 
+0000002480 00000 n 
+0000002617 00000 n 
+0000002740 00000 n 
+0000002869 00000 n 
+0000003001 00000 n 
+0000003137 00000 n 
+0000003265 00000 n 
+0000003392 00000 n 
+0000003521 00000 n 
+0000003654 00000 n 
+0000003756 00000 n 
+0000004100 00000 n 
+0000004186 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <D58EC5954CB736FE22F3596F7E2B9739> <D58EC5954CB736FE22F3596F7E2B9739> ]
+>>
+startxref
+4290
+%%EOF

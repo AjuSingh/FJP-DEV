@@ -1,0 +1,266 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1855
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 16 Tf
+18.3999999999999986 TL
+0 g
+2.8346456692913389 839.0553543307086102 Td
+() Tj
+T* (1. Returning promises from functions that update the DOM missing for row.addTreeChild) Tj
+T* (2. Changing the filter or sorting, while pagination is enabled, does not revert the table back to the first page) Tj
+T* (3. Website Update  and Community Discord Server) Tj
+T* (4. Support array row format) Tj
+T* (5. A total for each group and each sub group when multi level grouping) Tj
+T* (6. Children cell edit,dataTreeChildColumnCalcs and groupBy do not work together ) Tj
+T* (7. redraw\(\) only updates the "top level" rows in a tree data) Tj
+T* (8. stale data in paginationMode, filterMode remote) Tj
+T* (9. Add Tabulator in the Data Grid Performance Comparison) Tj
+T* (10. Eslint configuration and github actions build to check lint rules?) Tj
+T* (11. Tabulator vertical scroll skipping / jumping) Tj
+T* (12. Navigation using keyboard arrows for Accessibility in non-editable tabulator Tables) Tj
+T* (13. sortMode remote and autoColumns True) Tj
+T* (14. Provide a  JS Fiddle or CodePen template to help with bug logging) Tj
+T* (15. Dropdown list on a select cell not displayed when the row is near the end of the browser) Tj
+T* (16. moduleInitOrder negative values) Tj
+T* (17. setHeaderFilterValue displaying value instead of label with "select" type header filter) Tj
+T* (18. Combobox \(autocomplete - select\) : display crash when close to end of page) Tj
+T* (19. GetPosition Child Rows) Tj
+T* (20. Filter icon in the column header) Tj
+T* (21. Multiselect with sorted group options breaks the groups) Tj
+T* (22. Bootstrap 5.1+ CSS) Tj
+T* (23. Multiselect editor causes unexpected deletions) Tj
+T* (24. Set scroll bar size to account for all items ASAP during Progressive Ajax Loading) Tj
+T* (25. Fast.Design stylesheet) Tj
+T* () Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20220403234026+05'30')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000002059 00000 n 
+0000003876 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000002116 00000 n 
+0000002241 00000 n 
+0000002371 00000 n 
+0000002504 00000 n 
+0000002641 00000 n 
+0000002764 00000 n 
+0000002893 00000 n 
+0000003025 00000 n 
+0000003161 00000 n 
+0000003289 00000 n 
+0000003416 00000 n 
+0000003545 00000 n 
+0000003678 00000 n 
+0000003780 00000 n 
+0000004124 00000 n 
+0000004210 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <135AAF105A522A36A77DB277AE00EE38> <135AAF105A522A36A77DB277AE00EE38> ]
+>>
+startxref
+4314
+%%EOF
