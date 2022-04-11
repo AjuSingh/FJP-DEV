@@ -29,7 +29,7 @@ return loginPagePromise;
 }).then(()=>{
     console.log("hackerrank login page opened successfully");
     //now type will find the input using attributes selector and add email store in it
-    let emailTypePromise = cTab.type("input[name='username']",email);
+    let emailTypePromise = cTab.type("input[name='username']",email,{delay:100});
     return emailTypePromise;
 }).then(()=>{
     console.log("email typed successfully");
@@ -74,7 +74,14 @@ return loginPagePromise;
 .then((linksArr)=>{
 console.log("All questions array recieved");
 //now have to solve each question
-let questionWillBeSolved = questionSolver(linksArr[0],0);
+//we will resolve question one then it reslove and return promise
+let questionWillBeSolved = questionSolver(linksArr[1],0);
+for(let i=2;i<linksArr.length; i++){
+    //new promise is stored in this array
+    questionWillBeSolved = questionWillBeSolved.then(()=>{
+        return questionSolver(linksArr[i],i-1);
+})
+}
 return questionWillBeSolved;
 })
 .then(()=>{
@@ -103,21 +110,15 @@ function  questionSolver(quesLink,ind){
             return codeWillBeTypedPromise;
         }).then(()=>{
             //control key + a to select data from the custom input
-            let controlKeyPressPromise = cTab.keyboard.press("Control");
+            let controlKeyPressPromise = cTab.keyboard.down("Control");
             return controlKeyPressPromise;
         }).then(()=>{
             let aKeyPressPromise = cTab.keyboard.press("a");
             return aKeyPressPromise;
-        }).then(()=>{
-            let unpressAPromise = cTab.keyboard.up("a");
-            return unpressAPromise;
         })
         .then(()=>{
             let xKeyPressPromise = cTab.keyboard.press("x");
             return xKeyPressPromise;
-        }).then(()=>{
-            let unpressXPromise = cTab.keyboard.up("x");
-            return unpressXPromise;
         })
         .then(()=>{
             // ".monaco-editor.no-user-select.vs
@@ -127,18 +128,11 @@ function  questionSolver(quesLink,ind){
             let aKeyPressPromise = cTab.keyboard.press('a');
             return aKeyPressPromise;
         })
-        .then(()=>{
-            let unpressAPromise = cTab.keyboard.up("a");
-            return unpressAPromise;
-        })
         .then(() => {
             let vKeyPressPromise = cTab.keyboard.press('v');
             return vKeyPressPromise;
         })
-        .then(()=>{
-            let unpressVPromise = cTab.keyboard.up("v");
-            return unpressVPromise;
-        }).then(() => {
+        .then(() => {
             let submitButtonClickPromise = cTab.click(".hr-monaco-submit");
             return submitButtonClickPromise;
         }).then(() => {
