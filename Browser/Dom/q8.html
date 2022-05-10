@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            font-size:15rem;
+        }
+
+        .stop{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>0</h1>
+     <button class="start">Start</button>
+     <button class="stop">Stop</button>
+</body>
+<script>
+let startbtn = document.querySelector('.start');
+let stopbtn = document.querySelector('.stop');
+let cnt = document.querySelector('h1');
+let interValId;
+startbtn.addEventListener('click',function(e) {
+    stopbtn.style.display = 'block';
+   intervalId =  setInterval(()=>{
+    cnt.innerText = parseInt(cnt.innerHTML) + 1;
+    },1000);
+});
+
+
+stopbtn.addEventListener('click',function(e){
+    stopbtn.style.display = 'none';
+    clearInterval(intervalId);
+})
+
+</script> 
+</html>

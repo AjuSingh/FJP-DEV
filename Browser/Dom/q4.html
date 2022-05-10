@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 5rem;
+        }
+
+        .blue {
+            background-color: blue;
+            box-shadow: 0px 0px 6px 5px;
+        }
+
+        .green {
+            background-color: green;
+            box-shadow: 0px 0px 6px 5px;
+        }
+
+        .red {
+            background-color: red;
+            box-shadow: 0px 0px 6px 5px;
+        }
+
+        .card {
+            border: 1px solid;
+            height: 10rem;
+            width: 10rem;
+            margin: 2rem;
+        }
+
+        .innerbox {
+            margin-top: 1rem;
+            height: 5rem;
+            border: 2px rgb(153, 61, 61) solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="red"></div>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="red"></div>
+    <div class="card" data-color="red"></div>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="green"></div>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="green"></div>
+     
+    <!-- here data color is the custom attribute which we can use -->
+    <!-- difference between currentTraget and target -->
+    <div class="card card1" data-color="green">
+        <div class="innerbox">
+            <p>Hello from card 1</p>
+        </div>
+    </div>
+</body>
+
+<!-- current target is always that element to which the eventhandler is attached and  -->
+<!-- target is that element inside the  current target or the element to which the element is attached-->
+
+
+<script>
+    // Q4 Write a script which fetches the data-color attribute of the card on 
+    //double clicking on them and attaches the fetched class to that card.
+    // Also change the data-color attribute to "used"
+
+
+
+   let cards = document.querySelectorAll('.card');
+   for(let i = 0; i < cards.length; i++)
+   {
+       //tag    eventhandler
+       //atttaching the event handler to the each card which is always current target if event is fired
+       cards[i].addEventListener('dblclick', function(e){
+           let currentTarget = e.currentTarget;
+           let classToAttach = currentTarget.getAttribute('data-color');
+           currentTarget.setAttribute('data-color','used');
+           currentTarget.classList.add(classToAttach);
+      
+        // console.log( e.currentTarget); // Returns the object whose event listener's callback is currently being invoked.
+        // console.log( e.target); //Returns the object to which event is dispatched (its target).
+
+
+        //here always the current target is the element to which event handler is attached.. ie the card with the class card
+        //now the target is which we will clicked inside the card
+       })
+   }
+</script>
+
+</html>

@@ -100,18 +100,36 @@ const fs = require('fs');
 //     }
 // }
 
-const firedPromise = fs.promises.readFile("f1.txt");
-firedPromise.then((data)=>{
-    return data;
-}).then((f1)=>{
-    console.log(f1 + "");
-   return fs.promises.readFile("f2.txt");
-}).then((f2)=>{
-    console.log(f2 + "");
-    return fs.promises.readFile("f3.txt");
-}).then((f3)=>{
-    console.log(f3 + "");
-    console.log("all files done..");
-}).catch((err)=>{
-    console.log(err);
-})
+//to remove callback hell
+//1.Make callback function separated
+//2.Use promises 
+
+// const firedPromise = fs.promises.readFile("f1.txt");
+// firedPromise.then((data)=>{
+//     return data;
+// }).then((f1)=>{
+//     console.log(f1 + "");
+//    return fs.promises.readFile("f2.txt");
+// }).then((f2)=>{
+//     console.log(f2 + "");
+//     return fs.promises.readFile("f3.txt");
+// }).then((f3)=>{
+//     console.log(f3 + "");
+//     console.log("all files done..");
+// }).catch((err)=>{
+//     console.log(err);
+// })
+
+
+//reading parallel files with the help of the promises
+
+const read1 = fs.promises.readFile("f1.txt");
+const read2 = fs.promises.readFile("f2.txt");
+const read3 = fs.promises.readFile("f3.txt");
+read1.then(cb)
+read2.then(cb)
+read3.then(cb)
+
+function cb(data){
+    console.log(data+"");
+}
