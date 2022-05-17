@@ -1,171 +1,202 @@
-const puppeteer = require('puppeteer');
-const {email,pass}  = require('./secrets');
-const {answer} = require('./codes')
-
-let cTab;
+const puppeteer = require("puppeteer");
+let { email, password } = require('./secrets');
+// let email = "";
+// let password = "";
+let { answer } = require("./codes");
+let curTab;
 let browserOpenPromise = puppeteer.launch({
-    //headless is for viewing what is happened automatically
-    //default value is true where it happens automatically without showing
-    headless:false,
-    defaultViewport:null,
-    args:["--start-maximized"],
-    //we need to fix the path of the of the browser 
-    executablePath:"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  headless: false, 
+  defaultViewport: null,
+  args: ["--start-maximized"]
+  //chrome://version/
+  // executablePath:
+  //   "//Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
 });
-
-browserOpenPromise.then((browser)=>{
+// console.log(browserOpenPromise);
+browserOpenPromise //fulfill
+  .then(function (browser) {
     console.log("browser is open");
-    //we have now the the way to open the browser
-    //now get the all tabs of the browser
-    let allBrowerTabsPromise = browser.pages();
-    return allBrowerTabsPromise;
-}).then((tabsArray)=>{
-//we get the way to control first tab
-cTab = tabsArray[0];
-console.log("new tab opened");
-//goto will used to open a url at current tab
-let loginPagePromise = cTab.goto("https://www.hackerrank.com/auth/login");
-return loginPagePromise;
-}).then(()=>{
-    console.log("hackerrank login page opened successfully");
-    //now type will find the input using attributes selector and add email store in it
-    let emailTypePromise = cTab.type("input[name='username']",email,{delay:100});
-    return emailTypePromise;
-}).then(()=>{
-    console.log("email typed successfully");
-                                        //selector            //data
-    let passwordTypePromise = cTab.type("input[name='password']",pass);
-    return passwordTypePromise;
-}).then(()=>{
-    console.log("password typed successfully");
-                                      //selector
-    let loggedInPromise = cTab.click(".ui-btn.ui-btn-large.ui-btn-primary.auth-button.ui-btn-styled");
-    return loggedInPromise;
-}).then(()=>{
-    console.log("logged into new page");
-    //some time it need to be load the page to acces some thing so thats why we made a custom promise to wait and click
-    //the algorithm
-    let algorithmTabWillBeOPenedPromise = waitAndClick("div[data-automation='algorithms']");
+    console.log(browserOpenPromise);
+    // console.log(browser);
+    //An array of all open pages inside the Browser.
+    //returns an array with all the pages in all browser contexts
+    let allTabsPromise = browser.pages(); // browser.newPage() -> new tab open hta h 
+    return allTabsPromise;
+  })
+  .then(function (allTabsArr) {
+    curTab = allTabsArr[0];
+    console.log("new tab");
+    //URL to navigate page to
+    let visitingLoginPagePromise = curTab.goto(
+      "https://www.hackerrank.com/auth/login"
+    );
+    return visitingLoginPagePromise;
+  })
+  .then(function (data) {
+    // console.log(data);
+    console.log("Hackerrank login page opened");
+    //selector(where to type), data(what to type)
+    let emailWillBeTypedPromise = curTab.type("input[name='username']", email, {delay:100});
+    return emailWillBeTypedPromise;
+  })
+  .then(function () {
+    console.log("email is typed");
+    let passwordWillBeTypedPromise = curTab.type(
+      "input[type='password']",
+      password,
+      { delay: 100 }
+    );
+    return passwordWillBeTypedPromise;
+  })
+  .then(function () {
+    console.log("password has been typed");
+    let willBeLoggedInPromise = curTab.click(
+      ".ui-btn.ui-btn-large.ui-btn-primary.auth-button.ui-btn-styled"
+    );
+    return willBeLoggedInPromise;
+  })
+  .then(function () {
+    console.log("logged into hackerrank successfully");
+    //waitAndClick will wait for the selector to load , and then click on the node
+    let algorithmTabWillBeOPenedPromise = waitAndClick(
+      "div[data-automation='algorithms']"
+    );
     return algorithmTabWillBeOPenedPromise;
-}).then(()=>{
-    console.log("algorithm page is opnened.");
-    //now we want to fetch the list of question links
-    let allQuesPromise = cTab.waitForSelector( 'a[data-analytics="ChallengeListChallengeName"]');
+  })
+  .then(function () {
+    console.log("algorithm page is opened");
+    let allQuesPromise = curTab.waitForSelector(
+      'a[data-analytics="ChallengeListChallengeName"]'
+    );
     return allQuesPromise;
-})
-.then(()=>{
-    //we created a function because we have to return promise instead of return link array
-    //if we return array we dont use .then and thats why evaluate function is use to return the array when promise is fullfiled
-
+  })
+  .then(function () {
     function getAllQuesLinks() {
-        let allElemArr = document.querySelectorAll(
-          'a[data-analytics="ChallengeListChallengeName"]'
-        );
-        let linksArr = [];
-        for (let i = 0; i < allElemArr.length; i++) {
-          linksArr.push(allElemArr[i].getAttribute("href"));
-        }
-        return linksArr;
+      let allElemArr = document.querySelectorAll(
+        'a[data-analytics="ChallengeListChallengeName"]'
+      );
+      let linksArr = [];
+      for (let i = 0; i < allElemArr.length; i++) {
+        linksArr.push(allElemArr[i].getAttribute("href"));
       }
-      //evaluate function will return promise as it is asynchronous  
-      let linksArrPromise = cTab.evaluate(getAllQuesLinks);
-      return linksArrPromise;
-})
-.then((linksArr)=>{
-console.log("All questions array recieved");
-//now have to solve each question
-//we will resolve question one then it reslove and return promise
-let questionWillBeSolved = questionSolver(linksArr[1],0);
-for(let i=2;i<linksArr.length; i++){
-    //new promise is stored in this array
-    questionWillBeSolved = questionWillBeSolved.then(()=>{
-        return questionSolver(linksArr[i],i-1);
-})
-}
-return questionWillBeSolved;
-})
-.then(()=>{
+      return linksArr;
+    }
+    let linksArrPromise = curTab.evaluate(getAllQuesLinks);
+    return linksArrPromise;
+  })
+  .then(function (linksArr) {
+    console.log("links to all ques received");
+    // console.log(linksArr);
+    //question solve krna h
+                              //link to the question to besolved, idx of the linksArr
+    let questionWillBeSolvedPromise = questionSolver(linksArr[0], 0);
+    for (let i = 1; i < linksArr.length; i++){
+      questionWillBeSolvedPromise = questionWillBeSolvedPromise.then(function () {
+        return questionSolver(linksArr[i], i);
+      })
+      // a = 10;
+      // a = a + 1;
+    }
+    return questionWillBeSolvedPromise;
+  }).
+  then(function () {
     console.log("question is solved");
-})
-.catch((err)=>{
+  })
+  .catch(function (err) {
     console.log(err);
-})
+  });
 
-
-function  questionSolver(quesLink,ind){
-    return new Promise(function(resolve,reject){
-        let fullLink = `https://www.hackerrank.com${quesLink}`
-        let questionOpenPromise = cTab.goto(fullLink);
-        questionOpenPromise.then(()=>{
-            console.log("question opened..");
-            //now we need to tick the check box
-            let waitForCheckBoxAndClick = waitAndClick(".checkbox-input");
-            return waitForCheckBoxAndClick;
-        }).then(()=>{
-            //select the box where code will be typed
-            let waitForTextBoxPromise = cTab.waitForSelector(".custominput");
-            return waitForTextBoxPromise;
-        }).then(()=>{
-            let codeWillBeTypedPromise = cTab.type(".custominput",answer[ind]);
-            return codeWillBeTypedPromise;
-        }).then(()=>{
-            //control key + a to select data from the custom input
-            let controlKeyPressPromise = cTab.keyboard.down("Control");
-            return controlKeyPressPromise;
-        }).then(()=>{
-            let aKeyPressPromise = cTab.keyboard.press("a");
-            return aKeyPressPromise;
-        })
-        .then(()=>{
-            let xKeyPressPromise = cTab.keyboard.press("x");
-            return xKeyPressPromise;
-        })
-        .then(()=>{
-            // ".monaco-editor.no-user-select.vs
-            let cursorOnEditorPromise = cTab.click(".monaco-editor.no-user-select.vs");
-            return cursorOnEditorPromise;
-        }).then(() => {
-            let aKeyPressPromise = cTab.keyboard.press('a');
-            return aKeyPressPromise;
-        })
-        .then(() => {
-            let vKeyPressPromise = cTab.keyboard.press('v');
-            return vKeyPressPromise;
-        })
-        .then(() => {
-            let submitButtonClickPromise = cTab.click(".hr-monaco-submit");
-            return submitButtonClickPromise;
-        }).then(() => {
-            let unpressControlPromise = cTab.keyboard.up("Control");
-            return unpressControlPromise;
-        }).then(()=>{
-            console.log("code submitted successfully");
-            resolve();
-        })
-        .catch((err) => {
-            reject(err);
-        });
-    });
+function waitAndClick(algoBtn) {
+  let waitClickPromise = new Promise(function (resolve, reject) {
+    let waitForSelectorPromise = curTab.waitForSelector(algoBtn);
+    waitForSelectorPromise
+      .then(function () {
+        console.log("algo btn is found");
+        let clickPromise = curTab.click(algoBtn);
+        return clickPromise;
+      })
+      .then(function () {
+        console.log("algo btn is clicked");
+        resolve();
+      })
+      .catch(function (err) {
+        reject(err);
+      })
+  });
+  return waitClickPromise;
 }
 
-function waitAndClick(algoBtn){
-    let waitClickPromise =  new Promise((resolve, reject)=>{
-                                        //in built function for loading of the page 
-        let waitForSelectorPromise = cTab.waitForSelector(algoBtn);
-        waitForSelectorPromise.then(()=>{
-            console.log("algo btn is found");
-            let clickPromise = cTab.click(algoBtn);
-            return clickPromise;
-        })
-        .then(()=>{
-            console.log("algo btn is clicked");   
-            resolve();    
-        })
-        .catch((err)=>{
-            console.log(err);
-            reject();
-        })
-    })
-    //
-    return waitClickPromise;
+function questionSolver(url, idx) {
+  return new Promise(function (resolve, reject) {
+    let fullLink = `https://www.hackerrank.com${url}`;
+    let goToQuesPagePromise = curTab.goto(fullLink);
+    goToQuesPagePromise
+      .then(function () {
+        console.log("question opened");
+        //tick the custom input box mark
+        let waitForCheckBoxAndClickPromise = waitAndClick(".checkbox-input");
+        return waitForCheckBoxAndClickPromise;
+      })
+      .then(function () {
+        //select the box where code will be typed
+        let waitForTextBoxPromise = curTab.waitForSelector(".custominput");
+        return waitForTextBoxPromise;
+      })
+      .then(function () {
+        let codeWillBeTypedPromise = curTab.type(".custominput", answer[idx]);
+        return codeWillBeTypedPromise;
+      })
+      .then(function () {
+        //control key is pressed promise
+        let controlPressedPromise = curTab.keyboard.down("Control");
+        return controlPressedPromise;
+      })
+      .then(function () {
+        let aKeyPressedPromise = curTab.keyboard.press("a");
+        return aKeyPressedPromise;
+      })
+      .then(function () {
+        let xKeyPressedPromise = curTab.keyboard.press("x");
+        return xKeyPressedPromise;
+      })
+      .then(function () {
+        let ctrlIsReleasedPromise = curTab.keyboard.up("Control");
+        return ctrlIsReleasedPromise;
+      })
+      .then(function () {
+        //select the editor promise
+        let cursorOnEditorPromise = curTab.click(
+          ".monaco-editor.no-user-select.vs"
+        );
+        return cursorOnEditorPromise;
+      })
+      .then(function () {
+        //control key is pressed promise
+        let controlPressedPromise = curTab.keyboard.down("Control");
+        return controlPressedPromise;
+      })
+      .then(function () {
+        let aKeyPressedPromise = curTab.keyboard.press("A");
+        return aKeyPressedPromise;
+      })
+      .then(function () {
+        let vKeyPressedPromise = curTab.keyboard.press("V");
+        return vKeyPressedPromise;
+      })
+      .then(function () {
+        let controlDownPromise = curTab.keyboard.up("Control");
+        return controlDownPromise;
+      })
+      .then(function () {
+        let submitButtonClickedPromise = curTab.click(".hr-monaco-submit");
+        return submitButtonClickedPromise;
+      })
+      .then(function () {
+        console.log("code submitted successfully");
+        resolve();
+      })
+      .catch(function (err) {
+        reject(err);
+      });
+  });
 }
