@@ -22,7 +22,9 @@ body{
 .main-cont{
 display: flex;
 flex-wrap: wrap;
-justify-content:space-evenly
+gap: 2rem;
+justify-content:center;
+margin:2rem;
 }
 
 
@@ -142,4 +144,13 @@ textarea{
     font-size:1.5rem;
     outline: none;
     overflow-wrap: break-word;
+}
+
+.ticket-lock{
+    font-size:1.5rem;
+    display: flex;
+    justify-content: flex-end;  
+    height:2rem;
+    margin-top:-29px;
+    margin-right: 11px;
 }

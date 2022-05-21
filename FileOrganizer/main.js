@@ -1,7 +1,7 @@
 let input = process.argv.slice(2);
 let help = require("./Commands/help");
 let organizer = require("./Commands/organizer")
-let Tree = require("./Commands/tree");
+let {tree} = require("./Commands/tree");
 
 let command = input[0];
 let path = input[1];
@@ -15,7 +15,7 @@ switch (command) {
     break;
   case "tree":
     //call the tree function
-    Tree.tree("",path);
+    tree(path);
     break;
   default:
     console.log("Command is not recognized");

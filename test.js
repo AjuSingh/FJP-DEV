@@ -1,11 +1,3 @@
-function outer(){
-    var a = 10;
-    function inner(){
-        console.log(a);
-    }
-    return inner;
-}
-
-var z = outer();
-// console.log(z + "");
-z();
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
