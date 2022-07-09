@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Todo from './Components/Todo';
+import Navbar from './Components/Navbar';
+import Banner from './Components/Banner';
+import List from './Components/List';
 
 function App() {
   return (
-   <Todo/>
+    <>
+   <Navbar/>
+   <Banner/>
+   <List/>
+   </>
   );
 }
 

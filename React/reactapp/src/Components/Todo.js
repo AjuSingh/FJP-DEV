@@ -10,13 +10,13 @@ export default class Todo extends Component {
     }
 
 
-    // deleteTask = (e) => {
-    //     console.log(e.target);
-    //     let filtered = this.state.tasks.filter((obj) => e.currentTarget.id !== obj.id);
-    //     this.setState = {
-    //         tasks: filtered
-    //     }
-    // }
+    deleteTask = (id) => {
+        let filtered = [];
+        filtered = this.state.tasks.filter((obj) => id !== obj.id);
+        this.setState({
+            tasks: [...filtered]
+        })
+    }
 
     handleChange = (e) => {
         console.log(e.target.value);
@@ -27,9 +27,9 @@ export default class Todo extends Component {
 
     handleSubmit = (e) => {
         this.setState({
-            tasks:[...this.state.tasks,{id:this.state.tasks.length+1,task:this.state.currentTask}]
+            tasks:[...this.state.tasks,{id:this.state.tasks.length+1,task:this.state.currentTask}],
+            currentTask:""
         })
-        this.state.currentTask="";
     }
 
    
@@ -44,7 +44,7 @@ export default class Todo extends Component {
                         return (
                             <div key={id}>
                                 <p>{task}</p>
-                                <button>Delete</button>
+                                <button onClick={()=>this.deleteTask(id)}>Delete</button>
                             </div>
                         )
                     })

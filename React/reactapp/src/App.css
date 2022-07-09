@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.banner-card{
+  /* margin-left: 4px; */
+  width: 100%;
+  padding:1rem;
+}
+
+
+.banner-img{
+  height:80vh;
+}
+
+.banner-details{
+  color:white;
+  position: absolute;
+  bottom:1rem;
+}
+
+@media screen and (max-width:500px){
+  .banner-img{
+    height:50vh;
+  }
+  
+
+  .banner-details{
+    font-size: .8rem;
+    color:white;
+    position: absolute;
+    bottom:1rem;
+  }
+}
+
+.list-card{
+  width:22rem;
+}
+
+.list-cont{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.list-card{
+  margin-top:1rem;
+}
+
+.list-details{
+  position:absolute;
+  color: white;
+  bottom: 0;
+}
+
+.pagination{
+  margin-top:1rem;
+  display: flex;
+  justify-content: center;
 }
