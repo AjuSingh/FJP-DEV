@@ -5,7 +5,7 @@ let { email, password } = require('./secrets');
 let { answer } = require("./codes");
 let curTab;
 let browserOpenPromise = puppeteer.launch({
-  headless: false, 
+  headless: false,
   defaultViewport: null,
   args: ["--start-maximized"]
   //chrome://version/
@@ -36,7 +36,7 @@ browserOpenPromise //fulfill
     // console.log(data);
     console.log("Hackerrank login page opened");
     //selector(where to type), data(what to type)
-    let emailWillBeTypedPromise = curTab.type("input[name='username']", email, {delay:100});
+    let emailWillBeTypedPromise = curTab.type("input[name='username']", email, { delay: 100 });
     return emailWillBeTypedPromise;
   })
   .then(function () {
@@ -88,9 +88,9 @@ browserOpenPromise //fulfill
     console.log("links to all ques received");
     // console.log(linksArr);
     //question solve krna h
-                              //link to the question to besolved, idx of the linksArr
+    //link to the question to besolved, idx of the linksArr
     let questionWillBeSolvedPromise = questionSolver(linksArr[0], 0);
-    for (let i = 1; i < linksArr.length; i++){
+    for (let i = 1; i < linksArr.length; i++) {
       questionWillBeSolvedPromise = questionWillBeSolvedPromise.then(function () {
         return questionSolver(linksArr[i], i);
       })
