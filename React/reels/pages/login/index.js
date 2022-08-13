@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import TextField from "@mui/material/TextField";
 import Image from "next/image";
 import logo from "../../assets/Instagram.jpeg";
@@ -10,6 +10,8 @@ import bg3 from '../../assets/bg3.jpg'
 import bg4 from '../../assets/bg4.jpg'
 import bg5 from '../../assets/bg5.jpg'
 import { AuthContext } from "../../context/auth";
+import { useRouter } from 'next/router'
+import Link from 'next/link';
 
 
 function index() {
@@ -18,7 +20,15 @@ function index() {
   const [password, setPassword] = React.useState('');
   const [error, setError] = React.useState('');
   const [loading, setLoading] = React.useState(true);
-  const { login } = React.useContext(AuthContext);
+  const { login, user } = React.useContext(AuthContext);
+  const router = useRouter();
+  useEffect(() => {
+    if (user) {
+      router.push('/');
+    }
+  }, [user])
+
+
   const handleClick = async () => {
     try {
       console.log(email);
@@ -83,10 +93,11 @@ function index() {
           />
           {/* if there is error then show the error else not show the error */}
           {error != '' && <div style={{ color: 'red' }}>{error}</div>}
-          <div style={{ color: "blue", marginTop: "0.5rem" }}>
-            Forget Password{" "}
-          </div>
-
+          <Link href='/forgot'>
+            <div style={{ color: "blue", marginTop: "0.5rem" }}>
+              Forget Password{" "}
+            </div>
+          </Link>
           <Button
             style={{ marginTop: "1rem" }}
             variant="contained"
@@ -99,7 +110,7 @@ function index() {
         </div>
         <div className="bottom-card">
           Don't Have an account ?{" "}
-          <span style={{ color: "blueviolet" }}>Signup</span>
+          <Link href='/signup'><span style={{ color: "blueviolet" }}>Signup</span></Link>
         </div>
       </div>
     </div>
